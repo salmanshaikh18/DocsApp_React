@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.css'
+import Background from './components/Background'
 
 const App = () => {
   return (
-    <div className='bg-gray-500 h-[100vh]'>
-      App
+    <div className='relative w-full h-screen bg-zinc-800'>
+      <Background />
     </div>
   )
 }
